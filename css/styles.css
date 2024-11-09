@@ -1,6 +1,8 @@
 .header {
   background-color: #ffffff;
   color: #2e2f42;
+  width: 1440px;
+  height: 72px;
 }
 .logo {
   color: #4d5ae5;
@@ -26,6 +28,11 @@
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
+.nav-studio {
+  text-decoration: none;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
 .nav-right {
   font-style: normal;
 }
@@ -41,6 +48,15 @@
 }
 .navright-li:active,
 .navleft-li:active {
+  color: #404bbf;
+}
+.navright-li:focus,
+.navleft-li:focus {
+  color: #404bbf;
+}
+.nav-studio:hover,
+.nav-studio:active,
+.nav-studio:focus {
   color: #404bbf;
 }
 body {
@@ -75,6 +91,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  text-align: center;
 }
 .button:focus,
 .button:hover {
@@ -98,11 +115,26 @@ ul {
 }
 .team {
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
 }
 .team li {
   background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+  text-align: center;
+}
+.portfolio-li {
+  width: 360px;
+  height: 420px;
+  text-align: left;
 }
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  width: 1440px;
+  height: 312px;
+}
+.mission > .h-three {
+  text-align: left;
 }

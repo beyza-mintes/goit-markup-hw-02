@@ -69,6 +69,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .solutions {
   color: #ffffff;
@@ -93,6 +94,7 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.11;
   font-weight: 700;
+  text-align: center;
 }
 .h-three {
   color: #2e2f42;

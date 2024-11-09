@@ -1,8 +1,6 @@
 .header {
   background-color: #ffffff;
   color: #2e2f42;
-  width: 1440px;
-  height: 72px;
 }
 .logo {
   color: #4d5ae5;
@@ -70,7 +68,6 @@ ul {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 .solutions {
@@ -80,13 +77,10 @@ ul {
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  text-align: center;
 }
 .button:focus,
 .button:hover {
@@ -99,7 +93,6 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.11;
   font-weight: 700;
-  text-align: center;
 }
 .h-three {
   color: #2e2f42;
@@ -110,26 +103,11 @@ ul {
 }
 .team {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
 }
 .team li {
   background-color: #ffffff;
-  width: 264px;
-  height: 380px;
-  text-align: center;
-}
-.portfolio-li {
-  width: 360px;
-  height: 420px;
-  text-align: left;
 }
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  width: 1440px;
-  height: 312px;
-}
-.mission > .h-three {
-  text-align: left;
 }
